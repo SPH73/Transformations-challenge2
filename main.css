@@ -7,11 +7,10 @@
   margin: 100px;
   background-color: pink;
   position: relative;
-  transform: rotateZ(360deg);
+  animation: spin;
   animation-name: rotate;
   animation-duration: 2s;
   animation-iteration-count: infinite;
-  animation-play-state: running;
   animation-timing-function: linear;
   
   

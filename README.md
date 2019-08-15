@@ -1,14 +1,7 @@
-         ___        ______     ____ _                 _  ___  
-        / \ \      / / ___|   / ___| | ___  _   _  __| |/ _ \ 
-       / _ \ \ /\ / /\___ \  | |   | |/ _ \| | | |/ _` | (_) |
-      / ___ \ V  V /  ___) | | |___| | (_) | |_| | (_| |\__, |
-     /_/   \_\_/\_/  |____/   \____|_|\___/ \__,_|\__,_|  /_/ 
- ----------------------------------------------------------------- 
+After looking at the solution code, I learned that I could improve my code.
+I had transform: rotate(360deg);
+I only needed to apply animation: spin; in it's place and I didn't needed
+animation-play-state: running;
 
-
-Hi there! Welcome to AWS Cloud9!
-
-To get started, create some files, play with the terminal,
-or visit https://docs.aws.amazon.com/console/cloud9/ for our documentation.
-
-Happy coding!
+I was happy to have the code working as per the challenge but it was quite
+verbose. It's still easier to use all the properties at the moment.
